@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/aju-challenge/static/css/main.d983002e.chunk.css",
+    "main.js": "/aju-challenge/static/js/main.4fe8bd26.chunk.js",
+    "main.js.map": "/aju-challenge/static/js/main.4fe8bd26.chunk.js.map",
+    "runtime-main.js": "/aju-challenge/static/js/runtime-main.76cb08b7.js",
+    "runtime-main.js.map": "/aju-challenge/static/js/runtime-main.76cb08b7.js.map",
+    "static/js/2.8d1f5d5b.chunk.js": "/aju-challenge/static/js/2.8d1f5d5b.chunk.js",
+    "static/js/2.8d1f5d5b.chunk.js.map": "/aju-challenge/static/js/2.8d1f5d5b.chunk.js.map",
+    "index.html": "/aju-challenge/index.html",
+    "precache-manifest.29a8a06636cdebf69f69b69d40022bf0.js": "/aju-challenge/precache-manifest.29a8a06636cdebf69f69b69d40022bf0.js",
+    "service-worker.js": "/aju-challenge/service-worker.js",
+    "static/css/main.d983002e.chunk.css.map": "/aju-challenge/static/css/main.d983002e.chunk.css.map",
+    "static/js/2.8d1f5d5b.chunk.js.LICENSE.txt": "/aju-challenge/static/js/2.8d1f5d5b.chunk.js.LICENSE.txt",
+    "static/media/Greasy.png": "/aju-challenge/static/media/Greasy.4a537207.png",
+    "static/media/App.scss": "/aju-challenge/static/media/bmw-r80-bobber.780add0e.jpg",
+    "static/media/doodle_arrow.svg": "/aju-challenge/static/media/doodle_arrow.0989e5f4.svg",
+    "static/media/logo.svg": "/aju-challenge/static/media/logo.77e98af9.svg",
+    "static/media/media_pipeburn.png": "/aju-challenge/static/media/media_pipeburn.90a9804d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76cb08b7.js",
+    "static/js/2.8d1f5d5b.chunk.js",
+    "static/css/main.d983002e.chunk.css",
+    "static/js/main.4fe8bd26.chunk.js"
+  ]
+}
