@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc71dd72b14c3ed0f6fee1b50b1d25a6",
+    "revision": "7102fc2e13348014bc82d4327585809d",
     "url": "/aju-challenge/index.html"
   },
   {
-    "revision": "78a1a7c441b9b72c117e",
-    "url": "/aju-challenge/static/css/main.d983002e.chunk.css"
+    "revision": "be8e0f808ada01508ce6",
+    "url": "/aju-challenge/static/css/main.4b6caac2.chunk.css"
   },
   {
     "revision": "7d5d03e6d4d844b56214",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aju-challenge/static/js/2.8d1f5d5b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "78a1a7c441b9b72c117e",
+    "revision": "be8e0f808ada01508ce6",
     "url": "/aju-challenge/static/js/main.4fe8bd26.chunk.js"
   },
   {

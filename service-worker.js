@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/aju-challenge/precache-manifest.29a8a06636cdebf69f69b69d40022bf0.js"
+  "/aju-challenge/precache-manifest.38558566950a1fbffb70288025cd1d34.js"
 );
 
 self.addEventListener('message', (event) => {
