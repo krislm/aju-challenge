@@ -1,0 +1,29 @@
+@import "../variables/colors";
+@import "../mixins";
+
+button, .button {
+  @include background-opacity($red-color, .1);
+  border-radius: 25px;
+  border-color: transparent;
+  font-family: 'Roag-Bold', sans-serif;
+  color: $red-color;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+  transition: background-color .5s;
+  &:hover {
+    cursor: pointer;
+    @include background-opacity($red-color, .4);
+  }
+
+  &--small {
+    max-width: 180px;
+  }
+  &--block {
+    width: 100%;
+  }
+}

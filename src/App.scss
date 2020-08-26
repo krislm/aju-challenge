@@ -1,0 +1,99 @@
+@import "./styles/index";
+
+.content {
+  overflow: hidden;
+  position: relative;
+  background-image: url("assets/bmw-r80-bobber.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: left 200px bottom;
+
+  @include desktop {
+    padding-left: $content-horizontal-padding-desktop;
+    height: 557px;
+  }
+  @include tablet {
+    padding-left: $content-horizontal-padding-tablet;
+    height: 557px;
+  }
+  @include mobile {
+    padding-left: $content-horizontal-padding-mobile;
+    height: 557px;
+    background-position: left 300px bottom;
+  }
+  @include mobile-small {
+    background-position: left 160px bottom -120px;
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    background: $white-color;
+    background: linear-gradient(to right, $white-color 65%, $transparent 65%, $transparent 100%);
+    height: 100%;
+    @include desktop {
+      width: 60%;
+    }
+    @include tablet {
+      width: 60%;
+    }
+    @include mobile {
+      display: block;
+      width: 100%;
+    }
+    @include mobile-small {
+      background: linear-gradient(to right, $white-color 40%, $transparent 40%, $transparent 100%);
+    }
+    .preorder {
+      margin-top: -30px;
+      button {
+        margin-right: 30px;
+      }
+    }
+  }
+  &__right {
+    @include desktop {
+      width: 40%;
+    }
+    @include tablet {
+      width: 40%;
+    }
+    @include mobile {
+      width: 0%;
+    }
+  }
+  .cover {
+    background-color: $white-color;
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+  }
+  .doodle {
+    &.light {
+      top: -20px;
+      right: 22%;
+      width: 2em;
+    }
+    &.arrow {
+      width: 4em;
+    }
+  }
+}
+.bottom {
+  @include desktop {
+    padding: 0 $bottom-horizontal-padding-desktop;
+  }
+  @include tablet {
+    padding: 0 $bottom-horizontal-padding-tablet;
+  }
+  @include mobile {
+    padding: 0 $bottom-horizontal-padding-mobile;
+  }
+  .as-seen-ins {
+    img {
+      margin-right: 64px;
+      margin-bottom: 32px;
+      height: 34px;
+    }
+  }
+}

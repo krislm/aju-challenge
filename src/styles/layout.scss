@@ -1,0 +1,27 @@
+.flex {
+  display: flex;
+  &--column {
+    flex-direction: column;
+    &.reverse {
+      flex-direction: column-reverse;
+    }
+  }
+  &--row {
+    flex-direction: row;
+    &.reverse {
+      flex-direction: row-reverse;
+    }
+  }
+  &--wrap {
+    flex-wrap: wrap;
+  }
+  .align {
+    &--end {
+      align-self: flex-end;
+    }
+  }
+}
+
+.absolute {
+  position: absolute;
+}

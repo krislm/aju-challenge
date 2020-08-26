@@ -1,0 +1,28 @@
+@import "../variables/colors";
+
+$link-margin: 10px;
+
+a.link {
+  transition: color .5s;
+  &.margin {
+    margin-left: $link-margin;
+    margin-right: $link-margin;
+    &--left {
+      margin-left: $link-margin + $link-margin;
+      margin-right: 0;
+    }
+    &--right {
+      margin-left: 0;
+      margin-right: $link-margin + $link-margin;
+    }
+  }
+  text-decoration: none;
+  color: $black-color;
+  &:hover {
+    color: $grey-color;
+  }
+  &.red {
+    color: $red-color;
+    font-weight: bold;
+  }
+}

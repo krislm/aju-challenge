@@ -1,0 +1,30 @@
+@import "../../styles/index";
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  @include desktop {
+    padding-left: $header-horizontal-padding-desktop;
+    padding-right: $header-horizontal-padding-desktop;
+    margin-top: 32px;
+    margin-bottom: 92px;
+  }
+  @include tablet {
+    padding-left: $header-horizontal-padding-tablet;
+    padding-right: $header-horizontal-padding-tablet;
+    margin-top: 26px;
+    margin-bottom: 84px;
+  }
+  @include mobile {
+    padding-left: $header-horizontal-padding-mobile;
+    padding-right: $header-horizontal-padding-mobile;
+    margin-top: 18px;
+    margin-bottom: 76px;
+  }
+  &__menu {
+    @include mobile {
+      display: none;
+    }
+  }
+}

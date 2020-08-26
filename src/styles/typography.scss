@@ -1,0 +1,24 @@
+@import "mixins";
+
+@include font-face("Roag Bold", "/assets/font/Roag-Bold", bold);
+@include font-face("Roag-ExtraBoldItalic", "/assets/font/Roag-ExtraBoldItalic", extrabold, italic);
+@include font-face("Roag-Light", "/assets/font/Roag-Light", light);
+
+body {
+  font-family: 'Roag-Light', Fallback, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roag-ExtraBoldItalic', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+p, a, span {
+  font-family: 'Roag-Light', Fallback, sans-serif;
+  line-height: 32px;
+}
+
+.bold {
+  font-family: 'Roag-Bold', Fallback, sans-serif;
+}
